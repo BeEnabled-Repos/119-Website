@@ -1,0 +1,93 @@
+/* Nav Bar */
+
+.header-logo {
+    position: fixed !important;
+    top: 50px !important;
+}
+
+.site-logo img {
+    width: 50px !important;
+}
+
+@media screen and (max-width: 1290px) {
+    .header-logo {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1291px) {
+    .header-logo {
+        display: flex !important;
+    }
+}
+
+/* Nav Hamburger Menu */
+
+li a i.fa {
+    color: #fff !important;
+}
+
+/* Hello There Section */
+.subhead.subhead--dark {
+    color: #fff;
+}
+
+.hello-there-paragraph {
+    color: #fff;
+}
+
+/* Our Story Section */
+#our-story > div:nth-child(2) > div:nth-child(1) > p:nth-child(3) {
+    margin-top: 30px !important;
+}
+
+/* A Larger Problem Section */
+.dollar-box {
+    margin-top: 60px !important;
+}
+
+
+/* Our Solution Section */
+
+.bystander-heading {
+    margin-top: 60px !important;
+}
+
+.solution-image1 {
+    margin-top: 60px !important;
+}
+
+/* Contact Us Section */
+.contact-content {
+    background-color: #1c1b1b !important;
+    color: white !important;
+}
+
+.form-field input, .form-field select, .form-field textarea {
+    color: rgba(255, 255, 255, 1) !important;
+    border-bottom-color: white !important;
+}
+
+.form-field input::placeholder, .form-field textarea::placeholder {
+    color: white !important;
+}
+
+.contact-email {
+    color: white !important;
+}
+
+.contact-email:hover {
+    color: rgb(191, 191, 191) !important;
+}
+
+#contactSubject option {
+    color: black !important;
+}
+
+
+
+/* Footer Section */
+.footer-logo {
+    background: url("../images/119-logo.png") no-repeat center !important;
+    background-size: 85px !important;
+}
