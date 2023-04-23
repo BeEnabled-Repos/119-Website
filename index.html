@@ -40,11 +40,20 @@
     ====================================================-->
     <style>
         #mc_embed_signup_scroll {
-    background-color: #66ffff;
+    background-color: #00649c !important;
     width: 100vw !important;
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
+
+ }
+
+ #mc_embed_signup_scroll * {
+    color: white;
+ }
+
+ .subtitle {
+ font-size: 1.26em;
  }
 
 #mce-MMERGE3 {
@@ -58,6 +67,10 @@
 
 #mc-embedded-subscribe-form {
  width: 100vw;
+}
+
+.submit-button {
+ background-color: #333 !important;
 }
     </style>
 </head>
@@ -435,24 +448,24 @@ can have a more independent and fulfilling life.
         <h2>Contact Us</h2>
         <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
-	<label for="mce-FNAME">First and last Name </label>
+	<label class="subtitle" for="mce-FNAME">First and last Name </label>
 	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
 	<span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
 </div>
 <div class="mc-field-group size1of2">
-	<label for="mce-PHONE">Phone Number </label>
+	<label for="mce-PHONE" class="subtitle">Phone Number </label>
 	<input type="text" name="PHONE" class="" value="" id="mce-PHONE">
 	<span id="mce-PHONE-HELPERTEXT" class="helper_text"></span>
 
 </div>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+	<label for="mce-EMAIL" class="subtitle">Email Address  <span class="asterisk">*</span>
 </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
 	<span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE2">How can we help you today?</label>
+	<label for="mce-MMERGE2" class="subtitle">How can we help you today?</label>
 	<select name="MMERGE2" class="" id="mce-MMERGE2">
 	<option selected value="I want to work with you">I want to work with you</option>
 <option value="I want to learn more about the projects">I want to learn more about the projects</option>
@@ -462,7 +475,7 @@ can have a more independent and fulfilling life.
 	<span id="mce-MMERGE2-HELPERTEXT" class="helper_text"></span>
 </div>
 <div class="mc-field-group">
-	<label for="mce-MMERGE3">Is there a particular project you'd like to discuss?</label>
+	<label for="mce-MMERGE3" class="subtitle">Is there a particular project you'd like to discuss?</label>
 	<select name="MMERGE3" class="" id="mce-MMERGE3">
 	<option value="119">119</option>
 	<option selected value="Nope - I just need general information">Nope - I just need general information</option>
@@ -481,7 +494,7 @@ can have a more independent and fulfilling life.
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_f44db3e265496e0258a6a9627_4aa7427f43" tabindex="-1" value=""></div>
         <div class="optionalParent">
             <div class="clear foot">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                <input type="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="button submit-button">
             </div>
         </div>
     </div>
